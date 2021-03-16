@@ -1,10 +1,7 @@
 makeCacheMatrix <- function(x = matrix()) {
   ## @x: is a dim(m,m) invertible matrix
-  ## provides a list of functions to
-  ##              1. set the matrix
-  ##              2. get the matrix
-  ##              3. set the inverse
-  ##              4. get the inverse
+  ## provides a list of functions to set, get the matrix and set, get then inverse
+  
   ##         these are used in cacheSolve() as inputs.
   
   inv = NULL
